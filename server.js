@@ -15,7 +15,7 @@ const pool = new Pool({
   }
 });
   
-app.get('/search', async (req, res) => {
+app.get('/branch', async (req, res) => {
     try {
       const { q, limit, offset } = req.query;
       const results = [];
@@ -51,7 +51,7 @@ app.get('/search', async (req, res) => {
     }
   });
   
-  app.get('/branch', async (req, res) => {
+  app.get('/search', async (req, res) => {
     try {
       const { q, limit, offset } = req.query;
       const results = [];
