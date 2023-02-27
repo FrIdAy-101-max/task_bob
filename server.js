@@ -38,7 +38,7 @@ app.get('/branch', async (req, res) => {
       if (results.length === 0) {
         res.status(404).send('Bank details not found');
       } else {
-        const response = results.slice(Number(offset), Number(limit)+1);
+        const response = results.slice(Number(offset)-1, Number(limit));
         console.log(response.length);
         let r = {
           "branches":response
@@ -78,7 +78,7 @@ app.get('/branch', async (req, res) => {
       if (results.length === 0) {
         res.status(404).send('Bank details not found');
       } else {
-        const response = results.slice(Number(offset), Number(limit)+1);
+        const response = results.slice(Number(offset)-1, Number(limit));
         console.log(response.length);
         console.log(results.length);
         let r = {
