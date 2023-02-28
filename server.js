@@ -6,7 +6,7 @@ const fs = require('fs');
 const app = express();
 const https = require('https');
 
-const connectionString = 'postgres://demo_v4fh_user:Kt1ZK2od2drdBKX5FNlXN5uhsLUPovJ0@dpg-cfub7a1a6gdotcah7hb0-a.oregon-postgres.render.com/demo_v4fh';
+const connectionString = 'postgres://demo_rkwn_user:7M9FPQreGLdZaaAiXK2tBONilrJNKWHk@dpg-cfuvuita499aogru31og-a.oregon-postgres.render.com/demo_rkwn';
 
 const pool = new Pool({
   connectionString: connectionString,
