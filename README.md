@@ -1,5 +1,8 @@
-# task_bob
-   Used nodejs to complete the give task and PostgresSQL is used for backend 
+# Description 
+   Created a REST service that can fetch bank details using the data given in the API paramete.So to implement the  nodejs is used to complete the give task and PostgresSQL is used for backend to store the Bank details
+   # There are two cases 
+      • Search-Displays the result based on the  Likeliness 
+      • Branch-Displays the result based on the branch location 
 # Tools
   * Nodejs
   * Postgres SQL
